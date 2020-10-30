@@ -1,0 +1,7 @@
+Credentials cache: API:11758
+        Principal: hwindom@21-SCHOOL.RU
+
+  Issued                Expires               Principal
+Jan 27 13:42:15 2020  Jan 27 23:42:15 2020  krbtgt/21-SCHOOL.RU@21-SCHOOL.RU
+Jan 27 13:42:16 2020  Jan 27 23:42:15 2020  ldap/ldap-master.21-school.ru@21-SCHOOL.RU
+Jan 27 13:42:17 2020  Jan 27 23:42:15 2020  HTTP/storage-student.21-school.ru@21-SCHOOL.RU
