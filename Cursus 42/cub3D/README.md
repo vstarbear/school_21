@@ -12,5 +12,5 @@ You can run it  ``./cub3D maps/map.cub --save `` to take a screenshot at ``.bmp`
 You can change ``map.cub`` file.
 
 <p align="center">
-  <img src="https://github.com" width="60%" />
+  <img src="https://github.com/vstarbear/school_21/blob/main/Cursus%2042/cub3D/screenshots.png" width="60%" />
 </p>
