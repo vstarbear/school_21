@@ -1,0 +1,22 @@
+
+R 1000 1000
+
+NO       textures/grey.xpm
+EA textures/wood.xpm
+S textures/sprite.xpm
+SO textures/brick.xpm
+WE         textures/blue.xpm
+
+F 205,249,255
+C 224,172,105
+
+1111
+1W01
+1001
+1001
+1001
+1001
+1021
+1001
+1001
+1111
