@@ -10,3 +10,7 @@ Controls are the same as the project with bonuses, but only ``W A S D`` to move,
 You can run it  ``./cub3D maps/map.cub --save `` to take a screenshot at ``.bmp`` format
 
 You can change ``map.cub`` file.
+
+<p align="center">
+  <img src="https://github.com" width="60%" />
+</p>
