@@ -15,5 +15,5 @@ This project is your very first project as a student at 42. You will need to rec
 * CUB3D
 This project is inspired by the world-famous eponymous 90's game, which was the first FPS ever. It will enable you to explore ray-casting. Your goal will be to make a dynamic view inside a maze, in which you'll have to find your way.
 
-*LIBASM 
+* LIBASM 
 Recoding certain functions of the standard C Library, but in x86-64 Intel Assembly.
