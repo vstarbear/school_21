@@ -17,3 +17,6 @@ This project is inspired by the world-famous eponymous 90's game, which was the 
 
 * LIBASM 
 Recoding certain functions of the standard C Library, but in x86-64 Intel Assembly.
+
+* FT_SERVICES
+Is a project that ask you to setup a Kubernetes cluster with multiple containers such as Wordpress, MySQL, Grafana...
