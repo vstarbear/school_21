@@ -1,8 +1,10 @@
 #!/bin/bash
 
-minikube start --driver=virtualbox --memory='2000' --disk-size 5000MB;
+minikube start --driver=virtualbox --memory='3000' --disk-size 10000MB;
 eval $(minikube docker-env)
 minikube addons enable metallb
+minikube addons enable metrics-server;
+minikube addons enable dashboard;
 kubectl apply -f ./srcs/metallb/metallb.yaml
 docker build -t nginx ./srcs/nginx/
 kubectl apply -f ./srcs/nginx/nginx.yaml

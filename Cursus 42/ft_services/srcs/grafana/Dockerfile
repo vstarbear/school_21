@@ -1,7 +1,7 @@
-FROM alpine
+FROM alpine:3.11
 
 RUN apk update
-RUN apk add grafana --repository=http://dl-3.alpinelinux.org/alpine/edge/testing/
+RUN apk add grafana --repository http://dl-cdn.alpinelinux.org/alpine/edge/community/ --allow-untrusted --no-cache
 
 COPY influxdb-datasource.yaml /usr/share/grafana/conf/provisioning/datasources/influxdb.yaml
 COPY dashboards.yaml /usr/share/grafana/conf/provisioning/dashboards/dashboards.yaml

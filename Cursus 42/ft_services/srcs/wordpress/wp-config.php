@@ -30,8 +30,8 @@ define( 'DB_PASSWORD', 'hwindom' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'cip-mysql:3306' );
-define( 'WP_HOME', 'http://192.168.99.102:5050/' ); # EXTERNAL IP
-define( 'WP_SITEURL', 'http://192.168.99.102:5050/' ); # EXTERNAL IP
+define( 'WP_HOME', 'http://192.168.99.101:5050/' ); # EXTERNAL IP
+define( 'WP_SITEURL', 'http://192.168.99.101:5050/' ); # EXTERNAL IP
 
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );

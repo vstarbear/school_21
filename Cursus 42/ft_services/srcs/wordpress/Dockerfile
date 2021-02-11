@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.11
 
 RUN apk update
 RUN apk upgrade
@@ -12,7 +12,8 @@ RUN unzip latest.zip
 RUN mv wordpress /www/
 RUN rm latest.zip
 
-COPY wp-config.php /www/
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY wp-config.php /www
 COPY ./start.sh .
 RUN chmod u+x start.sh
 

@@ -1,4 +1,4 @@
-FROM	alpine
+FROM    alpine:3.11
 
 RUN	apk update
 RUN	apk add openrc openssl vsftpd
@@ -9,7 +9,7 @@ COPY ./vsftpd.conf /etc/vsftpd/vsftpd.conf
 COPY start.sh /start.sh
 RUN chmod u+x /start.sh
 RUN	mkdir -p /ftp_anon /hwindom
-RUN	printf "move files from the window on the left here\n" > /hwindom/Readme.txt
+RUN	printf "файл hwindom на ftp\n" > /hwindom/Readme.txt
 RUN	printf "hwindom\nhwindom\n" | adduser hwindom -s /bin/false -h /hwindom
 RUN	printf "/bin/false\n" >> /etc/shells
 RUN	chown hwindom:hwindom /hwindom
